@@ -45,7 +45,6 @@
 YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
  open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
 </p>
-
 <!--
 <a align="center" href="https://ultralytics.com/yolov5" target="_blank">
 <img width="800" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/banner-api.png"></a>
@@ -61,7 +60,6 @@ See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on tr
 
 <details open>
 <summary>Install</summary>
-
 [**Python>=3.6.0**](https://www.python.org/) is required with all
 [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) installed including
 [**PyTorch>=1.7**](https://pytorch.org/get-started/locally/):
@@ -103,7 +101,6 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 
 <details>
 <summary>Inference with detect.py</summary>
-
 `detect.py` runs inference on a variety of sources, downloading models automatically from
 the [latest YOLOv5 release](https://github.com/ultralytics/yolov5/releases) and saving results to `runs/detect`.
 
@@ -121,7 +118,6 @@ $ python detect.py --source 0  # webcam
 
 <details>
 <summary>Training</summary>
-
 Run commands below to reproduce results
 on [COCO](https://github.com/ultralytics/yolov5/blob/master/data/scripts/get_coco.sh) dataset (dataset auto-downloads on
 first use). Training times for YOLOv5s/m/l/x are 2/4/6/8 days on a single V100 (multi-GPU times faster). Use the
